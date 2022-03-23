@@ -1,18 +1,18 @@
-// function tersduzulus(){
-//     n=prompt('cumle daxil edin!');
-//     ayrilmis = n.split(' ');
+function tersduzulus(){
+    n=prompt('cumle daxil edin!');
+    ayrilmis = n.split(' ');
 
-//     let b=[];
-//     let sum='';
+    let b=[];
+    let sum='';
 
-//     for(let i=ayrilmis.length-1; i>=0; i--){
+    for(let i=ayrilmis.length-1; i>=0; i--){
 
-//         b.push(ayrilmis[i]);    
+        b.push(ayrilmis[i]);    
 
-//     }
+    }
     
-//     console.log(b);
+    console.log(b);
 
-// }
+}
 
-// tersduzulus();
+tersduzulus();

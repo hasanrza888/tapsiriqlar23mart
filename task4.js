@@ -1,33 +1,33 @@
-// function averagebiggernumber(){
-//     let n=prompt('ededleri daxil edin');
+function averagebiggernumber(){
+    let n=prompt('ededleri daxil edin');
 
-//     let eded=n.split(' ');
+    let eded=n.split(' ');
 
-//     let str=[];
+    let str=[];
 
-//     let str2=[];
+    let str2=[];
 
-//     let sum=0;
+    let sum=0;
 
-//     let average;
+    let average;
 
-//     for(let i=0; i<eded.length; i++){
+    for(let i=0; i<eded.length; i++){
 
-//         str.push(Number(eded[i]));
+        str.push(Number(eded[i]));
 
-//         sum+=str[i];
+        sum+=str[i];
         
-//     }
-//     average = sum/str.length;
+    }
+    average = sum/str.length;
     
-//     for(let j=0; j<str.length; j++){
+    for(let j=0; j<str.length; j++){
 
-//         if(average < str[j]){
-//             str2.push(str[j]);
-//         }
-//     }
+        if(average < str[j]){
+            str2.push(str[j]);
+        }
+    }
 
-//     console.log(str2);
-// }
+    console.log(str2);
+}
 
-// averagebiggernumber();
+averagebiggernumber();

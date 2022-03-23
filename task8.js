@@ -1,22 +1,22 @@
-// function herflebaslayan(n,m){
+function herflebaslayan(n,m){
 
-//     n=prompt('cumle daxil edin!');
-//     m=prompt('herf daxil edin!');
+    n=prompt('cumle daxil edin!');
+    m=prompt('herf daxil edin!');
 
-//     ayrilmis = n.split(' ');
+    ayrilmis = n.split(' ');
 
-//     let b=[];
+    let b=[];
     
-//     for(let i=0; i<ayrilmis.length; i++){
+    for(let i=0; i<ayrilmis.length; i++){
         
-//         if(ayrilmis[i][0]==m){
-//             b.push(ayrilmis[i]);
-//         }
-//     }
+        if(ayrilmis[i][0]==m){
+            b.push(ayrilmis[i]);
+        }
+    }
 
-//     console.log(b);
+    console.log(b);
 
-// }
+}
 
 
-// herflebaslayan();
+herflebaslayan();
